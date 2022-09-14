@@ -27,10 +27,13 @@ const Solution = () => {
     catFactApicall();
   }, []);
 
+  const reload = (e) => { location.reload()};
+
   return (
     <div className="solution">
       <img src={gif} alt="cat-gif" />
       <p> {fact}</p>
+      <button onClick={reload}>Reload</button>
     </div>
   );
 };
