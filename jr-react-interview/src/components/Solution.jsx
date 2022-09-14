@@ -27,7 +27,7 @@ const Solution = () => {
     catFactApicall();
   }, []);
 
-  const reload = (e) => { location.reload()};
+  const reload = () => { location.reload()};
 
   return (
     <div className="solution">
